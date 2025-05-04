@@ -1,8 +1,3 @@
-let haystack = 'hello world';
-let needle = 'o'
-
-let index = myIndexOf(haystack, needle);
-
 function myIndexOf(haystack, needle){
 
     if(needle.length > haystack.length) return -1;
@@ -27,5 +22,4 @@ function myIndexOf(haystack, needle){
     return -1;
 }
 
-console.log(index);
 
